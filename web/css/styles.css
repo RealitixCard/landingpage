@@ -683,7 +683,6 @@ input[type='checkbox'] {
 
 .navbar-custom .nav-item .nav-link:hover,
 .navbar-custom .nav-item .nav-link.active {
-	color: #14bf98;
 }
 
 /* Dropdown Menu */
@@ -1882,7 +1881,6 @@ a:hover.back-to-top {
 	
 	.navbar-custom .nav-item .nav-link:hover,
 	.navbar-custom .nav-item .nav-link.active {
-		color: #14bf98;
 	}
 
 	.navbar-custom.top-nav-collapse {
@@ -1901,7 +1899,6 @@ a:hover.back-to-top {
 	
 	.navbar-custom.top-nav-collapse .nav-item .nav-link:hover,
 	.navbar-custom.top-nav-collapse .nav-item .nav-link.active {
-		color: #14bf98;
 	}
 
 	.navbar-custom .dropdown-menu {
