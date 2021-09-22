@@ -115,15 +115,15 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-5">
-                    <div class="text-container">
+                    <div class="text-container" style="margin-top: 6.875rem;">
                         <div class="section-title">INTRO</div>
                         <h2>Avec RealixcARd passez à l'ère de la carte postale 2.0</h2>
                         <p>Avec une interface simple et ergonomique, notre solution vise à rendre vos cartes postales plus vivantes que jamais. Envoyez des vidéos à vos proches pour un moment inoubliable.</p>
                     </div> <!-- end of text-container -->
                 </div> <!-- end of col -->
                 <div class="col-lg-7">
-                    <div class="image-container">
-                        <img class="img-fluid" src="images/intro-office.jpg" alt="alternative">
+                    <div class="image-container" style="width:80%">
+                        <img class="img-fluid" src="images/intro-office.jpg"  alt="alternative">
                     </div> <!-- end of image-container -->
                 </div> <!-- end of col -->
             </div> <!-- end of row -->
@@ -337,7 +337,7 @@
                         <h2>Pour plus d'information</h2>
 
                         <ul class="list-unstyled li-space-lg">
-                            <li><i class="fas fa-envelope"></i><a href="mailto:office@aria.com">realtixcard1@gmail.com</a></li>
+                            <li><i class="fas fa-envelope"></i><a href="mailto:office@aria.com">realitixcard1@gmail.com</a></li>
                         </ul>
                         <h3>Nos réseaux sociaux</h3>
 
@@ -354,43 +354,27 @@
                             </a>
                         </span>
                         <span class="fa-stack">
-                            <a href="#your-link">
-                                <span class="hexagon"></span>
-                                <i class="fab fa-pinterest fa-stack-1x"></i>
-                            </a>
-                        </span>
-                        <span class="fa-stack">
-                            <a href="#your-link">
+                            <a href="https://www.instagram.com/realitixcard2022/">
                                 <span class="hexagon"></span>
                                 <i class="fab fa-instagram fa-stack-1x"></i>
                             </a>
                         </span>
                         <span class="fa-stack">
-                            <a href="#your-link">
+                            <a href="https://www.linkedin.com/company/realitixcards/">
                                 <span class="hexagon"></span>
                                 <i class="fab fa-linkedin-in fa-stack-1x"></i>
                             </a>
                         </span>
-                        <span class="fa-stack">
-                            <a href="#your-link">
-                                <span class="hexagon"></span>
-                                <i class="fab fa-behance fa-stack-1x"></i>
-                            </a>
-                        </span>
+
                     </div> <!-- end of text-container -->
                 </div> <!-- end of col -->
                 <div class="col-lg-6">
                     
                     <!-- Contact Form -->
-                    <form id="contactForm" data-toggle="validator" data-focus="false">
+                    <form>
                         <div class="form-group">
                             <input type="text" class="form-control-input" id="cname" required>
                             <label class="label-control" for="cname">Nom</label>
-                            <div class="help-block with-errors"></div>
-                        </div>
-                        <div class="form-group">
-                            <input type="email" class="form-control-input" id="cemail" required>
-                            <label class="label-control" for="cemail">Email</label>
                             <div class="help-block with-errors"></div>
                         </div>
                         <div class="form-group">
@@ -399,11 +383,12 @@
                             <div class="help-block with-errors"></div>
                         </div>
                         <div class="form-group">
-                            <button type="submit" class="form-control-submit-button">ENVOYER MON MESSAGE</button>
+                            <button type="submit" onclick="location.href=&quot;mailto:realitixcard1@gmail.com?subject=Message depuis la landing page&body=&quot;+document.getElementById(&quot;cmessage&quot;).value;" class="form-control-submit-button">ENVOYER MON MESSAGE</button>
                         </div>
                         <div class="form-message">
                             <div id="cmsgSubmit" class="h3 text-center hidden"></div>
                         </div>
+                        
                     </form>
                     <!-- end of contact form -->
 
