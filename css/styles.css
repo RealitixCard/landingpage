@@ -855,6 +855,10 @@ input[type='checkbox'] {
 	padding-bottom: 2.875rem;
 }
 
+.image-container-intro {
+    width: 80%;
+}
+
 .cards-1 .card {
     text-align: center;
 	margin-bottom: 2.5rem;
@@ -1847,8 +1851,14 @@ a:hover.back-to-top {
 /*****************************/
 /*     21. Media Queries     */
 /*****************************/	
+@media (max-width: 768px) {
+    .image-container-intro {
+        width: 100% !important;
+    }
+}
 /* Min-width width 768px */
 @media (min-width: 768px) {
+    
 	
 	/* General Styles */
 	.p-heading {
@@ -1874,6 +1884,10 @@ a:hover.back-to-top {
 		margin-top: 0;
 		margin-bottom: 0;
 	}
+    
+    .image-container-intro {
+        width: 100% !important;
+    }
 
 	.navbar-custom .nav-item .nav-link {
 		padding: 0.25rem 0.75rem 0.25rem 0.75rem;
@@ -2068,7 +2082,9 @@ a:hover.back-to-top {
 		color: #fff;
 		transition: all 0.2s ease;
 	}
-
+    .image-container-intro {
+        width: 100%;
+    }
 	.navbar-custom .fa-stack:hover .fa-stack-1x {
 		color: #14bf98;
 	}
